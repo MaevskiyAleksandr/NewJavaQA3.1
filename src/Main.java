@@ -2,8 +2,8 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-    BmiService service = new BmiService();
-    int  indexKg = service.calculate(1.78f, 83);
+        BmiService service = new BmiService();
+        int indexKg = service.calculate(1.55f, 47);
         System.out.println(indexKg);
     }
 }

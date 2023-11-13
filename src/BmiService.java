@@ -3,7 +3,7 @@ public class BmiService {
         float indexKg;
         if (heightM * heightM >= 1) {
             indexKg = (weightKg / (heightM * heightM));
-        }else {
+        } else {
             indexKg = 10;
 
         }
