@@ -1,10 +1,8 @@
 public class BmiService {
     public int calculate(float heightM, int weightKg) {
-        float indexKg;
+        float indexKg = ((weightKg / (heightM * heightM)));
         if (heightM * heightM >= 1) {
             indexKg = (weightKg / (heightM * heightM));
-        } else {
-            indexKg = 10;
 
         }
         return (int) indexKg;

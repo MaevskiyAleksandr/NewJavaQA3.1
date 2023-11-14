@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        int indexKg = service.calculate(1.55f, 47);
+        int indexKg = service.calculate(1.87f, 98);
         System.out.println(indexKg);
     }
 }
